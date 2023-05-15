@@ -1,0 +1,18 @@
+.fileUploadStyles {
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+};
+
+.customFileUpload {
+    color: white;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+};
+
+input[type="file"] {
+    display: none;
+}
+
+

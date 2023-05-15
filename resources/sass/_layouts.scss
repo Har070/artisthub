@@ -1,0 +1,103 @@
+.header-space {
+    padding-top: 88px
+}
+.of-bg-dark {
+    background-color: $dark;
+}
+.of-text-danger {
+    color: $red !important;
+}
+.of-text-secondary {
+    color: $grey;
+}
+.sectionSpace {
+    padding-top: 110px;
+}
+.font-16 {
+    font-size: 16px;
+}
+.font-14 {
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: $red;
+    border-color: $red;
+    &:hover, &:focus {
+        background-color: #91130c !important;
+        border-color: #91130c !important;
+        box-shadow: none !important;
+    }
+}
+
+.form-group {
+    label {
+        color: $red;
+    }
+}
+
+.form-file-group {
+    position: relative;
+    input[type="file"] {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+.form-control {
+    background-color: transparent !important;
+    border-radius: 0;
+    padding: 0px 0.75rem;
+    height: 56px;
+    border-color: #6e6e6e !important;
+    color: white !important;
+    &:focus {
+        box-shadow: 0 0 0 0.2rem #c3221a3b;
+    }
+    option {
+        color: black;
+    }
+}
+
+.link-unstyled {
+    color: unset !important;
+    text-decoration: unset !important;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.small-scrollbar {
+    &::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: $red;
+        border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #b30000;
+    }
+}
+
+.text-ellipsis-bottom {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
